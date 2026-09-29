@@ -76,6 +76,16 @@ button {
     flex: 1 1 auto;
 }
 
+.profiles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul.img-desc {
+    display: flex;
+}
+
 img#lander {
     flex: 1 0 auto;
 }
