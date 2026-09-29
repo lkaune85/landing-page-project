@@ -23,6 +23,7 @@ h2 {
 
 p {
     font-size: x-small;
+    margin: 0;
 }
 
 button {
@@ -32,6 +33,10 @@ button {
   width: 80px;
   box-sizing: border-box;
   font-size: x-small;
+  background-color: #3882F6;
+  color: aliceblue;
+  border-color: #3882F6;
+  border-style: solid;
 }
 
 .header {
@@ -61,6 +66,8 @@ button {
     justify-content: space-between;
     height: 100%;
     margin: 48px 80px;
+    gap: 10px;
+    /* flex-wrap: wrap; */
 }
 
 .intro {
@@ -71,4 +78,8 @@ button {
 
 img#lander {
     flex: 1 0 auto;
+}
+
+button#sign-up-1{
+    margin-top: 8px;
 }
