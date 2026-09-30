@@ -88,10 +88,6 @@ ul.img-desc {
     display: flex;
 }
 
-img#lander {
-    flex: 1 0 auto;
-}
-
 button#sign-up-1{
     margin-top: 8px;
 }
