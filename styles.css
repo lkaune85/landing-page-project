@@ -87,6 +87,7 @@ button {
     flex-direction: column;
     align-items: center;
     flex: 1;
+    margin-bottom: 80px;
 }
 
 .quote {
@@ -95,15 +96,24 @@ button {
     flex: 1;
     padding: 32px 80px;
     background-color: #E5E7EB;
+    color: #1F2937;
     align-items: center;
 }
 
-#quotee, #quote-text{
+#quotee, #quote-text {
     width: 448px;
+}
+
+#quote-text {
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
 }
 
 #quotee {
     text-align: end;
+    font-weight: 500;
+    font-size: 12px;
 }
 
 li.prof-element {
