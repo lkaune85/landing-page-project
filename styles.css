@@ -43,7 +43,7 @@ button {
 
 .header {
     background-color: #1F2937;
-    flex: 1 0 auto;
+    flex: 1;
     height: 300px;
     color: aliceblue;
     display: flex;
@@ -71,7 +71,6 @@ button {
 .awesome {
     display: flex;
     justify-content: space-between;
-    height: 100%;
     margin: 48px 80px;
     gap: 16px;
     /* flex-wrap: wrap; */
@@ -100,4 +99,8 @@ ul.img-desc {
 
 button#sign-up-1{
     margin-top: 8px;
+}
+
+img#lander {
+    flex: 1;
 }
