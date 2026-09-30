@@ -123,7 +123,7 @@ button {
 }
 
 #quotee, #quote-text {
-    width: 448px;
+    width: 520px;
 }
 
 #quote-text {
@@ -143,11 +143,11 @@ li.prof-element {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: 16px;
 }
 
 ul.img-desc {
     display: flex;
-    gap: 16px;
 }
 
 button#sign-up-1{
