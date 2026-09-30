@@ -177,5 +177,5 @@ button#sign-up-2{
 }
 
 img#lander, img.icon {
-    flex: 1;
+    flex: 0;
 }
