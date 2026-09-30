@@ -53,6 +53,12 @@ button {
 
 .footer {
     height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: aliceblue;
+    font-size: x-small;
 }
 
 .top-bar {
@@ -117,6 +123,18 @@ button {
     flex-direction: column;
 }
 
+img.icon {
+    border-radius: 8px;
+    border-width: 3px;
+    border-color: #3882F6;
+    border-style: solid;
+}
+
+p.prof-text {
+    margin-top: 4px;
+    width: 100px;
+}
+
 #call {
     font-weight: 700;
     font-size: 12px;
@@ -160,8 +178,4 @@ button#sign-up-2{
 
 img#lander, img.icon {
     flex: 1;
-}
-
-p.prof-text {
-    width: 100px;
 }
