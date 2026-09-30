@@ -37,6 +37,7 @@ button {
   color: aliceblue;
   border-color: #3882F6;
   border-style: solid;
+  font-weight: 900;
 }
 
 .header {
@@ -59,6 +60,7 @@ button {
     justify-content: space-evenly;
     gap: 8px;
     font-size: small;
+    font-size: x-small;
 }
 
 .awesome {
