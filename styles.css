@@ -93,14 +93,26 @@ button {
     flex: 1;
 }
 
+li.prof-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 ul.img-desc {
     display: flex;
+    gap: 16px;
 }
 
 button#sign-up-1{
     margin-top: 8px;
 }
 
-img#lander {
+img#lander, img.icon {
     flex: 1;
+}
+
+p.prof-text {
+    width: 100px;
 }
