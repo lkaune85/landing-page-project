@@ -116,6 +116,9 @@ button {
     border-radius: 8px;
     justify-content: space-between;
     align-items: center;
+    box-sizing: border-box;
+    align-self: center;
+    width: 600px;
 }
 
 .call-text {
